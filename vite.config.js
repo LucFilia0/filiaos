@@ -1,3 +1,3 @@
 export default {
-    base: "/filiaos/"
+    base: "/filiaos/",
 };
