@@ -1,0 +1,133 @@
+@import url('root.css');
+
+/* === BASE === */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 1rem;
+    color: var(--foreground);
+}
+
+body {
+    background-color: var(--background);
+    padding: 1rem;
+}
+
+p {
+    margin-bottom: .3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td svg {
+    margin-top: .3rem;
+}
+
+/* === CLASS === */
+
+.cli-primary {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.cli-dim {
+    color: var(--dim);
+    font-style: italic;
+}
+
+/* INPUT */
+
+.cli-input {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.cli-input span {
+    color: var(--primary);
+}
+
+.cli-input input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+/* OUTPUT */
+
+.cli-output {
+    padding-left: .7rem;
+    margin-bottom: .7rem;
+}
+
+/* HELP */
+
+.help td:nth-child(2) {
+    padding-left: 3rem;
+}
+
+.help td:nth-child(3) {
+    padding-left: .5rem;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    gap: 1rem;
+}
+
+.about > div:first-child {
+    background-image: url('../../img/pgn.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.about td:first-child:not([colspan]) {
+    padding-left: 1rem;
+}
+
+.about td:nth-child(2) {
+    padding-left: 3rem;
+}
+
+.about td:nth-child(3) {
+    padding-left: .5rem;
+}
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    gap: 1rem;
+}
+
+.skill {
+    width: 20rem;
+}
+
+/* PROJECTS */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project h2 {
+    display: flex;
+    gap: 1rem;
+}

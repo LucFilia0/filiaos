@@ -1,0 +1,19 @@
+{
+    "version"   : "1.0",
+    "job"       : "IT student",
+    "hobbies"   :
+    [
+        {
+            "icon"      : "music",
+            "content"   : "I'm keen on listening to music"
+        },
+        {
+            "icon"      : "console",
+            "content"   : "As you can see, I love terminals stuff..."
+        },
+        {
+            "icon"      : "books",
+            "content"   : "I love to read novels, especially fantasy and SF"
+        }
+    ]
+}

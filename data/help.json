@@ -1,0 +1,22 @@
+[
+    {
+        "cmd"   : "help",
+        "desc"  : "Displays this help"
+    },
+    {
+        "cmd"   : "about",
+        "desc"  : "Tells a bit more about me"
+    },
+    {
+        "cmd"   : "skills",
+        "desc"  : "Show you what I can do"
+    },
+    {
+        "cmd"   : "projects",
+        "desc"  : "Dive into my projects"
+    },
+    {
+        "cmd"   : "clear",
+        "desc"  : "Clears the console"
+    }
+]

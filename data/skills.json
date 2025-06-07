@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Java",
+        "img": "java-icon.svg",
+        "projects": [0]
+    },
+    {
+        "name": "Gestion de projet",
+        "img": "java-icon.svg",
+        "projects": [0]
+    },
+    {
+        "name": "HTML / CSS",
+        "img": "java-icon.svg",
+        "projects": [1]
+    },
+    {
+        "name": "PHP",
+        "img": "java-icon.svg",
+        "projects": [1]
+    }
+]
